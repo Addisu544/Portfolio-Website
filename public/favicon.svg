@@ -1,0 +1,10 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text {
+      font-family: cursive;
+      font-size: 60px;
+      font-weight: bold;
+    }
+  </style>
+  <text x="50%" y="70%" text-anchor="middle" fill="#3b82f6">𝓐𝓓</text>
+</svg>
