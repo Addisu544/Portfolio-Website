@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, PerspectiveCamera } from '@react-three/drei';
+// import { Canvas } from '@react-three/fiber';
+// import { OrbitControls, PerspectiveCamera } from '@react-three/drei';
 import './Projects.css';
 
 const projectsData = [

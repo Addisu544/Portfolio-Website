@@ -237,19 +237,38 @@ const Contact = () => {
     //     'ZD22_SHsZzzBOaH6v'    // Updated Public Key (User ID)
     //   );
 
-      try {
-    const result = await emailjs.sendForm(
-      process.env.REACT_APP_EMAILJS_SERVICE_ID,
-      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
-      form.current,
-      process.env.REACT_APP_EMAILJS_USER_ID
-    );
+    //   try {
+    // const result = await emailjs.sendForm(
+    //   process.env.REACT_APP_EMAILJS_SERVICE_ID,
+    //   process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+    //   form.current,
+    //   process.env.REACT_APP_EMAILJS_USER_ID
+    // );
 
-      // if (result.status === 200) {
-        showToast('success', 'Success', 'Message sent successfully!');
-      //   form.current.reset();
-      // }
-    } catch (error) {
+    //   // if (result.status === 200) {
+    //     showToast('success', 'Success', 'Message sent successfully!');
+    //   //   form.current.reset();
+    //   // }
+    // }
+    
+    
+    
+    
+    
+    try {
+  // This line calls the function and waits for it to complete.
+  // The email will be sent at this point.
+  await emailjs.sendForm(
+    process.env.REACT_APP_EMAILJS_SERVICE_ID,
+    process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+    form.current,
+    process.env.REACT_APP_EMAILJS_USER_ID
+  );
+
+  // If the 'await' line above finishes successfully, this code runs.
+  showToast('success', 'Success', 'Message sent successfully!');
+
+}catch (error) {
       console.error('EmailJS Error:', error);
       showToast('error', 'Error', 'Failed to send message. Please try again.');
     }
