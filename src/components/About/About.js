@@ -52,7 +52,7 @@ const About = () => {
               <p>Technologies</p>
             </div>
             <div className="stat-item">
-              <h3>8+</h3>
+              <h3>10+</h3>
               <p>months experiance</p>
             </div>
 
