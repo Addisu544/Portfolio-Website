@@ -21,7 +21,7 @@ const About = () => {
              I hold a BSc in Computer Science from Wolkite University, and I bring a solid background in software development, networking, and database management. I'm certified by Oracle in Database Management Systems and by Huawei in Networking, which strengthens my ability to design robust, scalable, and well-integrated solutions across tech stacks.
             </p>
             <p>
-            Throughout my career, I’ve developed a variety of applications—ranging from enterprise tools to custom network solutions—demonstrating strong skills in both frontend and backend development. My technical stack includes languages and frameworks such as Java, Python, JavaScript, React, and SQL, among others.
+            Throughout my career, I’ve developed a variety of applications demonstrating strong skills in both frontend and backend development. My technical stack includes languages and frameworks such as .Net Core, JavaScript, React,Node and SQL, among others.
             </p>
              <p>
               What sets me apart is my commitment to continuous learning and staying ahead of industry trends. I’m deeply interested in areas like cybersecurity, cloud computing, and system architecture. I value teamwork, clean communication, and a results-driven mindset, and I strive to contribute not just as a developer but as a problem solver and innovator.
